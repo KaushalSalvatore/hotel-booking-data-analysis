@@ -85,11 +85,11 @@ CREATE TABLE BRONZE_HOTEL_BOOKING (
 
 #### Data Pipeline Flow
 
-- 1. Upload CSV file to Snowflake Stage
-- 2. Load data into BRONZE_HOTEL_BOOKING
-- 3. Transform and clean data into Silver layer
-- 4. Create analytical tables in Gold layer
-- 5. Connect BI tool to Gold layer
-- 6. Build interactive dashboard
+-  Upload CSV file to Snowflake Stage
+-  Load data into BRONZE_HOTEL_BOOKING
+-  Transform and clean data into Silver layer
+-  Create analytical tables in Gold layer
+-  Connect BI tool to Gold layer
+-  Build interactive dashboard
 
 ![Hotel Dashboard](dashboard.png)
